@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+	<link href="dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="dist/lightbox.min.css">
+	<script src="dist/lightbox-plus-jquery.min.js"></script> 
+	<script src="dist/aos.js"></script>
+</head>
+<body>
+	<div class="container-fluid pl-0 pr-0" id="header">
+		<div class="title">
+			<h4 align="center" class="pt-2 pb-3">Rosé</h4>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 br" data-aos="fade-right"	data-aos-offset="300"	data-aos-easing="ease-in-sine">
+					<img class="img-fluid" src="images/5.jpg" alt="rose" width="200">
+				</div>
+				<div class="col-md-6">
+					<ul class="profolio">
+						<li class="item1">BLACKPINK</li>
+						<li>Name -<font color="pink" class="item2"  size="3"> Rosé(Park Chae-young)</font></li>
+						<li>DOB -<font color="pink" class="item3" size="3">  1998 11 Febuary</font></li>
+						<li>Height -<font color="pink" class="item2" size="3">  168</font></li>
+						<li>Silbing -<font color="pink" class="item3" size="3">  Alice Park</font></li>
+						<li>Born -<font color="pink" class="item2" size="3"> New Zealand</font></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- nav -->
+	<div class="container-fluid" id="nav">
+		<nav>
+			<ul>
+				<li><a href="#header">Main</a></li>
+				<li><a href="#album">Album</a></li>
+				<li><a href="#gallary">Gallary</a></li>
+				<li><a href="#video">Video</a></li>
+				<li><a href="#social">Social</a></li>
+			</ul>
+		</nav>
+	</div>
+	<!-- end nav -->
+	
+	<!-- album section -->
+		<div class="container-fluid" id="album"> 
+			<h3>Album</h3>
+			<div class="row">
+				<div class="col-md-3">
+					<a href="#video">
+					<div class="card">
+						<img src="images/5.jpg">
+						<h6>SOLO album</h6>
+						<p>title - Gone<br>
+							By ROSE
+						</p>
+					</div>
+					</a>
+				</div>
+				<div class="col-md-3">
+					<a href="#video">
+					<div class="card">
+						<img src="images/ontheground.jpg">
+						<h6>SOLO album</h6>
+						<p>title - Gone<br>
+							By ROSE
+						</p>
+					</div>
+					</a>
+				</div>
+					<a href="#header" style="position:fixed; top: 550px; left: 1250px; z-index: 1000;"><img src="images/toparrow.png"></a>
+
+			</div>
+		</div>
+	<!-- End Album section -->
+
+
+
+	<!-- Gallary section -->
+	<div class="container-fluid"  id="gallary">
+		<div class="gtitle">
+			<h3>Gallary</h3>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<a href="images/9.jpg" data-lightbox="mygallary"><img data-aos="flip-right" src="images/9.jpg"></a>
+			</div>
+			<div class="col-md-3">
+				<a href="images/7.jpg" data-lightbox="mygallary"><img data-aos="flip-right" src="images/7.jpg"></a>
+			</div>
+			<div class="col-md-3">
+				<a href="images/8.jpg" data-lightbox="mygallary"><img data-aos="flip-left" src="images/8.jpg"></a>
+			</div>
+			<div class="col-md-3">
+				<a href="images/6.jpg" data-lightbox="mygallary"><img data-aos="flip-left" src="images/6.jpg"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<a href="images/1.jpg" data-lightbox="mygallary"><img data-aos="flip-right" src="images/1.jpg"></a>
+			</div>
+			<div class="col-md-3">
+				<a href="images/2.jpg" data-lightbox="mygallary"><img data-aos="flip-right" src="images/2.jpg"></a>
+			</div>
+			<div class="col-md-3">
+				<a href="images/3.jpg" data-lightbox="mygallary"><img data-aos="flip-left" src="images/3.jpg"></a>
+			</div>
+			<div class="col-md-3">
+				<a href="images/10.jpg" data-lightbox="mygallary"><img data-aos="flip-left" src="images/10.jpg"></a>
+			</div>
+		</div>
+	</div>
+	<!-- End Gallary Section -->
+	<section id="video">
+		<div class="container-fluid">
+			<h3>VIDEO</h3>
+		<div class="col-md-12" style="margin: 0; padding: 0;">
+				<p align="left">latest video</p>
+				<iframe width="800" height="400" src="https://www.youtube.com/embed/K9_VFxzCuQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+
+	<!--start social -->
+		<section id="social">
+			<div class="container-fluid" style="margin: 0; padding: 0;">
+				<h3>Social</h3>
+				<div>
+					<a href="https://www.instagram.com/p/CGnG46ThYFq"></a>
+					<a href="https://www.facebook.com/BlackPink.Rose.yg/"></a>
+					<a href="https://twitter.com/roses_are__rose/"></a>
+					<a href=""></a>
+					<a href=""></a>
+				</div>
+			</div>
+		</section>
+	<!--end social -->
+
+<script src="dist/smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+	 AOS.init();
+</script>
+
+</body>
+</html>
