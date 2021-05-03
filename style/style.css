@@ -116,6 +116,9 @@ body {
 	position: relative;
 	transform: translateY(40px);
 }
+#album .col-md-3 {
+	margin-top: 10px;
+}
 #album .row img {
 	width: 100%;
 	height: 120px;
